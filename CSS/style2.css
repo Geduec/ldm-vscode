@@ -1,0 +1,54 @@
+:root{
+    --main-color: #507fff;
+    --secondary-color: #2e31cc;
+    --accent-color: #ff5733;
+    --verdecito: #28a745;
+}
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* naranja_mecanica : snake_case
+
+naranjaMecanica  : camelCase
+
+naranja-mecanica : kebab-case
+
+*/
+
+div{
+
+width: 200px;
+height: auto;
+background-color: rgba(40, 167, 70, 0.64);
+
+    color: var(--secondary-color);
+
+    p{
+        color: var(--accent-color);
+    }
+
+}
+
+p{
+    color: var(--verdecito)
+}
+
+p2{
+    width: 300px;
+    height: auto;
+    color: var(--main-color)
+    background-color: black;
+
+}
+
+#caja2{
+    width: 50vw;
+    height: 25vh;
+    /*background: linear-gradient(180deg, #c9d0e5,#d2e833,#ff5733, #2e31cc)
+    */
+    /*background: radial-gradient(circle, #c9d0e5, #7b8628, #e92e04, #2e31cc);
+    */
+    background:conic-gradient(from 60deg , #c9d0e5,#46492f,#ff5733, #2e31cc);
+    }

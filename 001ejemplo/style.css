@@ -1,0 +1,55 @@
+body{
+padding: 0px;
+margin: 0px;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: aliceblue;
+    color: blue;
+    padding: 1em;
+    
+}
+
+h1{
+    background-color: blueviolet;
+    padding: 2px 4px 8px 12px;
+    text-align: center;
+    border: solid red;
+    border-radius: 5px;
+    /* border-width: 2px 2px 4px 8px; T R B L (agujas del reloj)*/
+    /* border-color: cadetblue brown chocolate darkorange;*/
+    /* border-style: dashed dotted double groove; */
+
+    margin: 2px 4px 8px 12px;
+}
+
+p{
+    background-color: aquamarine;
+    border: 4px yellow solid;
+    border-width: 2px 4px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 2 px solid orange;
+    outline-offset: 5px;
+}
+
+main{
+    min-height: 100vh;
+    background-image: url(w.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: 50px red solid;
+    padding: 20px;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+footer{
+    background-color: darkblue;
+}

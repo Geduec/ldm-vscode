@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+:root{
+    --main-color: #507fff;
+    --secondary-color: #2e31cc;
+    --accent-color: #ff5733;
+    --background-main-color: #f0f0f0;
+    --black-standard: #131314;
+}
+
+h1{
+    color: var(--main-color);
+    background-color: var(--background-main-color)
+}
+
+#p2{
+    color: purple;
+    background-color: #e0c9ff;
+}
+
+.parrafo{
+    color: orange;
+    background-color: #ffe5b4;
+}
+
+/* Estilos para todos los párrafos */
+
+
+p{
+    color: green;
+    background-color: #c9ffc9;
+}
+
+body{
+    color: red;
+    background-color: #ffc9c9; 
+}
+
+div {
+    background-color: aqua;
+}
+
+a:hover{
+    color: black
+}
+
+#p2::first-letter{
+    font-size: 200%;
+    color: red;
+}

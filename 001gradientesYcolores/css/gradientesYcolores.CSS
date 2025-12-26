@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to bottom, #2884c6d7, #ffffff);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    text-align: center;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    color: white; 
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 1em; /* un em son 16px osea es el tamaño por defecto */
+    font-weight: bold;
+    border-radius: 10px;
+    line-height: 200px;
+    display: inline-block;
+}
+.caja1{
+    background-color: #f00808d7;
+}
+
+.caja2{
+    background-color: rgb(55, 165, 136);
+}
+
+.caja3{
+    background: linear-gradient(to right, #e38c22d7, #f0d90ad7);
+}
+
+.caja4{
+    background: radial-gradient(circle, #004e86d7, #4accffd7 70%);
+}
+
+.caja5{
+    background: linear-gradient(to right, #0cffffd7, #00c3fed7, #0036c8d7) ;
+}
+
+.caja6{
+    background: linear-gradient(to bottom right, #f51c59, #1a0165d7);
+}
+
+.caja7{
+    background: radial-gradient(circle, #fff9f9, #fba44cd7, #3bc8ded7 80%);
+}
+
+.caja8{
+    background: radial-gradient(ellipse at bottom left, #ff0909,#d1ff2b,#2119ff );
+}
+
+.caja9{
+    background: conic-gradient(from 45deg, #28f96ed7, #014310d7, #ffffff)
+}
