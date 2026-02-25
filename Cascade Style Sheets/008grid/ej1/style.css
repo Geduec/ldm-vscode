@@ -1,0 +1,6 @@
+#contenedor {
+    /* Rejilla de paginacion */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}

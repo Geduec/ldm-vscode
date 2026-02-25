@@ -1,0 +1,161 @@
+/* Mobile first*/
+:root{
+    --bg-yellow: #ffeb3b;
+    --bg-blue: #0474cf;
+    --bg-red: #f32d1f;
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--bg-black);
+}
+
+#contenedor{
+    /*grid*/
+    display: grid;
+    /*grid-template-columns: 1fr; */
+
+    grid-template-areas:
+    'rojo1'
+    'rojo2'
+    'azul1'
+    'amarillo1'
+    'bauhaus'
+    'blanco1'
+    'azul2'
+    'amarillo2';
+
+    gap: 1em;
+    margin: 1em;
+    padding-top: 10px;
+    background-color: var(--bg-black);
+    margin: auto;
+}
+
+#rojo1{
+    grid-area: rojo1;
+    background-color: var(--bg-red);
+    height: 60px;
+}
+
+#rojo2{
+    grid-area: rojo2;
+    background-color: var(--bg-red);
+    height: 60px;
+}
+
+#azul1{
+    grid-area: azul1;
+    background-color: var(--bg-blue);
+    height: 60px;
+}
+
+#amarillo1{
+    grid-area: amarillo1;
+    background-color: var(--bg-yellow);
+    height: 60px;
+}
+
+#bauhaus{
+    grid-area: bauhaus;
+    background-color: var(--bg-white);
+    text-align: center;
+
+    h1{
+        font-size: 70px;
+    }
+
+    p{
+        font-size:small;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+}
+
+#blanco1{
+    grid-area: blanco1;
+    background-color: var(--bg-white);
+    height: 60px;
+}
+
+#azul2{
+    grid-area: azul2;
+    background-color: var(--bg-blue);
+    height: 60px;
+}
+#amarillo2{
+    grid-area: amarillo2;
+    background-color: var(--bg-yellow);
+    height: 60px;
+}
+
+/* Para tablet */
+
+@media only screen and (min-width: 768px) {
+
+    #contenedor{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        'azul1 azul1 azul1'
+        'bauhaus bauhaus bauhaus'
+        'blanco1 azul2 amarillo1'
+        'rojo1 rojo2 rojo2'
+        'amarillo2 rojo2 rojo2'
+        'amarillo2 rojo2 rojo2';
+    }
+
+    #azul1, #azul2, #blanco1, #amarillo1{
+        height: 100px;
+    }
+
+    #rojo1{
+        height: 150px;
+    }
+
+    #rojo2{
+        height: 500px;
+    }
+    #amarillo2{
+        height: 334px;
+    }
+
+    #bauhaus{
+        text-align: right;
+        padding-right: 20px;
+    }
+}
+
+/* para desktop */
+
+@media only screen and (min-width: 1024px){
+
+    #contenedor{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 
+        "rojo1 rojo2 rojo2 azul1 azul1 azul1"
+        "amarillo2 rojo2 rojo2 bauhaus bauhaus bauhaus"
+        ;
+    }
+
+    #rojo2{
+        height: 680px;
+    }
+
+    #amarillo2{
+        height: 575px;
+    }
+
+    #bauhaus{
+        margin-top: -50px;
+        height: 450px;
+
+        p{
+            margin-left: 0.5em;
+        }
+    }
+}

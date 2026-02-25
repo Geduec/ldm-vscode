@@ -1,0 +1,79 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 252, 255);
+}
+
+#container{
+    width:auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 238, 250);
+}
+
+#websiteTitle{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(49, 156, 160);
+    text-align: center;
+}
+
+#navigationBar{
+    background-color: rgb(36, 149, 177);
+    padding: 10px;
+    margin: 0px;
+    font-size: large
+    color: darkblue;
+    a{
+        text-decoration: none;
+        margin: 10px;
+        color: darkblue;
+    }
+}
+
+section{
+    float:left;
+}
+
+#lateralBar{
+    float:left;
+    background-color: rgb(196, 188, 188);
+
+    margin:20px;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#finalBar{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(49, 156, 160);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    body{
+        background-color: aquamarine;
+    }
+
+    div#container{
+        background-color: lightgray;
+    }
+}
