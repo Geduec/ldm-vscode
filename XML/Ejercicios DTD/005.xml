@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "005.dtd">
+<empresa>
+  <nombre>Tech Solutions S.A.</nombre>
+  <direccion>Calle Falsa 123, Ciudad</direccion>
+    <empleado>
+      <nombre>Juan Pérez</nombre>
+      <puesto>Desarrollador Senior</puesto>
+    </empleado>
+    <empleado>
+      <nombre>Ana Gómez</nombre>
+      <puesto>Especialista en Marketing</puesto>
+    </empleado>
+  
+</empresa>

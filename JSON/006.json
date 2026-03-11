@@ -1,0 +1,12 @@
+{
+    "lista": [
+        {
+            "nombre": "Madrid",
+            "pais": "España"
+        },
+        {
+            "nombre": "París",
+            "pais": "Francia"
+        }
+    ]
+}

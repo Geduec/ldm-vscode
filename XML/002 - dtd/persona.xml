@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, edad, profesion)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT edad (#PCDATA)>
+  <!ELEMENT profesion (#PCDATA)>
+]>
+<persona
+  <nombre>Juan Pérez</nombre>
+    <edad>30</edad>
+    <profesion>Ingeniero</profesion>
+</persona>

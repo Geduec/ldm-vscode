@@ -1,0 +1,19 @@
+
+{
+'empleados':[
+    {
+        'nombre':'Juan',
+        'apellido':'Perez',
+        'edad':30,
+        'direccion':'Calle 123',
+        'telefono':'555-1234'
+    },
+    {
+        'nombre':'Maria',
+        'apellido':'Gomez',
+        'edad':25,
+        'direccion':'Avenida 456',
+        'telefono':'555-5678'
+    }
+]
+}

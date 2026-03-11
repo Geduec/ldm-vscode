@@ -1,0 +1,8 @@
+<!DOCTYPE clase [
+  <!ELEMENT clase (nombre, profesor, alumnos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT profesor (#PCDATA)>
+  <!ELEMENT alumnos (alumno+)>
+  <!ELEMENT alumno (nombre, edad)>
+  <!ELEMENT edad (#PCDATA)>
+]>

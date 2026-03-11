@@ -1,0 +1,6 @@
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, edad, profesion)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT edad (#PCDATA)>
+  <!ELEMENT profesion (#PCDATA)>
+]>

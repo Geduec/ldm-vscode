@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase SYSTEM "003.dtd">
+<clase>
+  <nombre>Matemáticas</nombre>
+  <profesor>Juan Pérez</profesor>
+  <alumnos>
+    <alumno>
+      <nombre>Ana García</nombre>
+      <edad>20</edad>
+    </alumno>
+    <alumno>
+      <nombre>Carlos López</nombre>
+      <edad>22</edad>
+    </alumno>
+  </alumnos>
